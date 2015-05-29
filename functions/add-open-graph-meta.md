@@ -2,6 +2,10 @@
 
 The following PHP code is meant to be included in the functions.php file
 
+*Insert into functions.php*
+
+***
+
 ```php
 <?php
 if ( !function_exists( 'add_opengraph' ) ) {
