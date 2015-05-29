@@ -2,7 +2,7 @@
 
 The following PHP code is meant to be included in the functions.php file
 
-*Insert into functions.php*
+*Insert the following code snippet in your themes function.php file.*
 
 ***
 
