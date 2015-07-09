@@ -29,7 +29,7 @@ function cs_get_user_role() {
  */
 function cs_admin_bar_modify() {
 
-    $userRole = abm_get_user_role();
+    $userRole = cs_get_user_role();
 
     global $wp_admin_bar;
 
