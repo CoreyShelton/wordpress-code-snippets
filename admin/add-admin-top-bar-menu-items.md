@@ -50,7 +50,7 @@ function cs_admin_bar_modify() {
          * To add a drop down menu with multiple sub-menu items uncomment the following
          *
          * Ref: http://davidwalsh.name/add-submenu-wordpress-admin-bar
-         *
+         */
         //$menu_id = 'my-custom-top-bar-item';
         //$wp_admin_bar->add_menu(array('id' => $menu_id, 'title' => __('Parent Item'), 'href' => '/'));
         //$wp_admin_bar->add_menu(array('parent' => $menu_id, 'title' => __('Homepage'), 'id' => 'dwb-home', 'href' => '/', 'meta' => array('target' => '_blank')));
