@@ -1,3 +1,7 @@
+# Add An Admin Custom Taxonomy Post/Custom Post Filter
+The following describes how to add an admin post or custom post filter to filter custom taxonomies.
+
+***
 ```php
 /**
  * Display a custom taxonomy dropdown in admin for Mortgage Bankers
