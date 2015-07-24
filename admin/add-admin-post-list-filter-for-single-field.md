@@ -47,7 +47,7 @@ function cs_admin_posts_filter_restrict_manage_posts(){
         <?php
     }
 }
-add_action( 'restrict_manage_posts', 'abm_admin_posts_filter_is_rated_restrict_manage_posts' );
+add_action( 'restrict_manage_posts', 'cs_admin_posts_filter_restrict_manage_posts' );
 
 
 /**
@@ -70,5 +70,5 @@ function cs_posts_filter( $query ){
         $query->query_vars['meta_value'] = $_GET['ADMIN_FILTER_FIELD_VALUE'];
     }
 }
-add_filter( 'parse_query', 'abm_posts_filter_is_rated' );
+add_filter( 'parse_query', 'cs_posts_filter' );
 ```
